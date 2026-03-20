@@ -1,0 +1,7 @@
+.footer {
+  position: relative; z-index: 1;
+  text-align: center; padding: 2.5rem 5%;
+  border-top: 1px solid var(--border);
+  color: var(--muted); font-size: 13px;
+}
+.footer span { color: var(--accent); }
