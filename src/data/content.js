@@ -1,4 +1,4 @@
-import { evHtml, eplHtml, churnHtml, sqlHtml } from './projectHtml.js'
+import { evHtml, eplHtml, dqHtml, nhsHtml } from './projectHtml.js'
 
 export const projects = [
   {
@@ -31,33 +31,34 @@ export const projects = [
     meta: 'EPL 2025/26 · Python · Interactive HTML',
   },
   {
-    key: 'churn',
-    html: churnHtml,
-    emoji: '📉',
-    bannerClass: 'banner-churn',
-    title: 'Customer Churn Prediction',
-    desc: 'End-to-end churn prediction system for a telecom business with a 29.3% monthly churn rate. Delivered a predictive XGBoost model and a full Power BI dashboard for the retention team.',
+    key: 'dq',
+    html: dqHtml,
+    emoji: '🔍',
+    bannerClass: 'banner-dq',
+    title: 'Enterprise Data Quality Framework',
+    desc: 'Production-grade data quality framework implementing automated validation across 5 dimensions — completeness, validity, uniqueness, consistency, timeliness — with health scoring, SLA governance, and executive PDF reporting. Aligned to DAMA-DMBOK v2.',
     tags: [
-      { label: 'Python',  cls: 'ptag-purple' },
-      { label: 'XGBoost', cls: 'ptag-purple' },
-      { label: 'Power BI',cls: 'ptag-amber'  },
-      { label: 'ML',      cls: 'ptag-purple' },
+      { label: 'Python',      cls: 'ptag-purple' },
+      { label: 'PostgreSQL',  cls: 'ptag-blue'   },
+      { label: 'Power BI',    cls: 'ptag-amber'  },
+      { label: 'DAMA-DMBOK',  cls: 'ptag-purple' },
     ],
-    meta: '7,043 customers · XGBoost · AUC 0.755',
+    meta: '25,000 records · 19 DQ Rules · Health Score 97.1/100',
   },
   {
-    key: 'sql',
-    html: sqlHtml,
-    emoji: '🗄️',
-    bannerClass: 'banner-sql',
-    title: 'Retail SQL Analytics',
-    desc: 'End-to-end SQL analytics project on a retail dataset. Covers sales trends, customer segmentation, product performance, and advanced window functions with a full interactive report.',
+    key: 'nhs',
+    html: nhsHtml,
+    emoji: '🏥',
+    bannerClass: 'banner-nhs',
+    title: 'NHS Waiting Time Analysis',
+    desc: 'End-to-end public sector analytics project analysing NHS England RTT waiting time data across 7 regions and 10 specialties. Includes EDA, regional disparity analysis, ARIMA demand forecasting, resource allocation modelling, and a policy-style PDF report.',
     tags: [
-      { label: 'SQL',      cls: 'ptag-blue' },
-      { label: 'Analytics',cls: 'ptag-blue' },
-      { label: 'Retail',   cls: 'ptag-blue' },
+      { label: 'Python',    cls: 'ptag-blue'  },
+      { label: 'ARIMA',     cls: 'ptag-blue'  },
+      { label: 'Power BI',  cls: 'ptag-amber' },
+      { label: 'Public Sector', cls: 'ptag-green' },
     ],
-    meta: 'SQL · CTEs · Window Functions',
+    meta: '~392,000 patients · 7 regions · 12-month forecast',
   },
 ]
 

@@ -53,14 +53,14 @@
 }
 
 /* banner colour variants */
-.banner-sql   { background-color: #1a2640; }
-.banner-sql   .bannerBg { background-image: radial-gradient(circle, var(--blue) 1px, transparent 1px); }
 .banner-epl   { background-color: #1a2a1f; }
 .banner-epl   .bannerBg { background-image: radial-gradient(circle, var(--green) 1px, transparent 1px); }
-.banner-churn { background-color: #261a2a; }
-.banner-churn .bannerBg { background-image: radial-gradient(circle, var(--purple) 1px, transparent 1px); }
 .banner-ev    { background-color: #261a1a; }
 .banner-ev    .bannerBg { background-image: radial-gradient(circle, var(--accent2) 1px, transparent 1px); }
+.banner-dq    { background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%); }
+.banner-dq    .bannerBg { background-image: radial-gradient(circle, var(--violet, #8b5cf6) 1px, transparent 1px); }
+.banner-nhs   { background: linear-gradient(135deg, #0050a0 0%, #003d7a 100%);}
+.banner-nhs   .bannerBg { background-image: radial-gradient(circle, var(--blue, #0072ce) 1px, transparent 1px); }
 
 /* body */
 .body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
