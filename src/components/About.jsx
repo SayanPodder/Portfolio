@@ -2,10 +2,10 @@ import { useInView } from './useInView'
 import styles from './About.module.css'
 
 const highlights = [
-  { icon: '🎓', title: 'Education',    desc: 'Business Analytics, BSc / MSc level studies' },
-  { icon: '🐍', title: 'Python & ML',  desc: 'EDA, feature engineering, XGBoost, Scikit-learn' },
-  { icon: '🗄️', title: 'SQL & Data',   desc: 'Complex queries, CTEs, aggregations, reporting' },
-  { icon: '📊', title: 'Dashboards',   desc: 'Power BI, Plotly, interactive web reports' },
+  { icon: '🎓', title: 'Education',       desc: 'Business Analytics, BSc / MSc level studies' },
+  { icon: '📊', title: 'BI Dashboards',   desc: 'Power BI, Tableau, Plotly — reports people actually read' },
+  { icon: '🗄️', title: 'SQL & Data',      desc: 'Complex queries, CTEs, aggregations, data modelling' },
+  { icon: '🤖', title: 'AI & Automation', desc: 'Using AI tools daily to automate reports and speed up analysis' },
 ]
 
 export default function About() {
@@ -20,19 +20,20 @@ export default function About() {
           <p className={styles.eyebrow}>About Me</p>
           <h2 className={styles.title}>A story told<br />in data</h2>
           <p>
-            I'm a <strong>Business Analytics graduate</strong> with a passion for uncovering
-            the "why" behind the numbers. Whether it's predicting customer behaviour,
-            analysing football performance, or building SQL pipelines, I love turning
-            messy data into clean, compelling stories.
+            I'm a <strong>Business Analytics graduate</strong> who gets genuinely excited when data answers
+            a question that's been keeping someone up at night. Whether it's tracking where NHS patients
+            wait longest, figuring out why VW is losing EV market share, or spotting referee patterns in
+            football data, I like problems where the answer actually matters.
           </p>
           <p>
-            My work sits at the intersection of <strong>technical rigour and business impact</strong>.
-            I don't just build models. I frame problems, communicate findings, and deliver
-            tools that teams can actually use.
+            I work across the full stack of business analytics: SQL queries, Power BI and Tableau dashboards,
+            Python for the heavy lifting, and clear written reports that non-technical stakeholders can act on.
+            I've also started building this portfolio with AI assistance, and I use AI tools daily to
+            automate repetitive tasks and get to insights faster.
           </p>
           <p>
-            Currently seeking <strong>Data Analyst and Business Intelligence</strong> roles
-            where I can grow, contribute, and make a measurable difference.
+            Right now I'm looking for <strong>Data Analyst, Business Intelligence, and Business Analyst</strong> roles
+            where I can help teams make better decisions with the data they already have.
           </p>
         </div>
 
